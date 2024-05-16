@@ -34,17 +34,7 @@ pokemonRepository.getAll().pokemonList.forEach(function(pokemon) {
     document.write('</p>');
 });
 
-// Original For loop iterating through pokemonList
-// for (let i = 0; i < pokemonList.length; i++) {
-//     document.write(pokemonList[i].name + ' Height: ' + pokemonList[i].height + ' Weight: ' + pokemonList[i].weight);
-//     if (pokemonList[i].height > 6) {
-//         document.write(" - Wow, that's a big Pokemon!!");
-//     }
-// }
 
 
 
-// document.write(<p>pokemonList[i].name + ' Height: ' + pokemonList[i].height + ' Weight: ' + pokemonList[i].weight</p>);
-// if (pokemonList[i].height > 6) {
-//     document.write(" - Wow, that's a big Pokemon!!");
-// }
+
