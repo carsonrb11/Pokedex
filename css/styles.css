@@ -1,0 +1,30 @@
+:root {
+    --dark-grey: #2b2b2b;
+    --light-grey: lightgray;
+    --header-font-weight: 700;
+    --primary-font-size: 16px;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Nunito-Sans', sans-serif;
+    font-weight: 400;
+    font-size: var(--primary-font-size);
+    line-height: 1.6;
+}
+
+.poke-entry {
+    background-color: var(--light-grey);
+    color:var(--dark-grey);
+    border: none;
+    font-family: inherit;
+    font-size: var(--primary-font-size);
+    border-radius: 3px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    transition: opacity 0.2s;
+}
+
+.poke-entry:hover, .poke-entry:focus{
+    cursor: pointer;
+    opacity: 0.8;
+}
